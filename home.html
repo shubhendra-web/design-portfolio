@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+
+    <div class="menu-toggle"></div>
+    <nav id="menu" class="hidden">
+      <a href="home.html">Home</a>
+      <a href="projects.html">PROJECTS</a>
+      <a href="about.html">ABOUT</a>
+      <a href="contact.html">CONTACT</a>
+
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Hello, I'm <span class="highlight">Shubhendra Singh Rathor</span></h1>
+      <p>A passionate Web Developer & Designer</p>
+      <a href="projects.html" class="btn">View My Work</a>
+    </div>
+    <div class="hero-img">
+      <img src="assest/MY2.jpg" alt="Your Photo">
+    </div>
+  </section>
+
+  <!-- About Preview -->
+  <section class="about-preview">
+    <h2>About Me</h2>
+    <p>
+      I’m a creative and detail-oriented developer who loves building
+      clean, modern, and responsive websites. With a passion for design and
+      functionality, I bring ideas to life through code.
+    </p>
+    <a href="about.html" class="btn">Read More</a>
+  </section>
+
+  <!-- Projects Preview -->
+  <section class="projects-preview">
+    <h2> projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="assest/groceyish .png" alt="Project One">
+        <h3>Project One</h3>
+        <p>THIS IS WEB PAGE DESING IN FIGMA...</p>
+      </div>
+      <div class="project-card">
+        <img src="assest/Frame 1000003412.png"alt="project two ">
+        <h3>Project Two</h3>
+        <p>Desing a card using Figma..</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / CTA -->
+  <section class="cta">
+    <h2>Let’s Work Together!</h2>
+    <p>Interested in collaborating or hiring me? Let’s connect!</p>
+    <a href="contact.html" class="btn">Contact Me</a>
+  </section>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("menu").classList.toggle("hidden");
+    }
+  </script>
+</body>
+
+</html>
